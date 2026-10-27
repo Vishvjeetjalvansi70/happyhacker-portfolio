@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HappyHacker — Video Editing & Motion Graphics</title>
+<meta name="description" content="Clean, minimal, and useful video edits and motion graphics for Instagram creators. Packages from ₹299, delivery in 36 hours.">
+<meta name="theme-color" content="#0a0a0c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HappyHacker — Video Editing & Motion Graphics">
+<meta property="og:description" content="Clean, minimal video edits and motion graphics for Instagram creators. Packages from ₹299.">
+<meta property="og:url" content="https://vishvjeetjalvansi70.github.io/happyhacker-portfolio/">
+<meta property="og:image" content="https://vishvjeetjalvansi70.github.io/happyhacker-portfolio/assets/avatar.jpg">
+<link rel="canonical" href="https://vishvjeetjalvansi70.github.io/happyhacker-portfolio/">
+<link rel="icon" href="assets/avatar.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top"><span class="mark">H</span>Happy<span>Hacker</span></a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+      <span class="nav-toggle-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Menu</span>
+    </button>
+    <nav class="navlinks" id="navMenu" aria-label="Main navigation">
+      <a href="#top">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#work">Projects</a>
+      <a href="#reels">Reels</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a class="btn red small" href="#contact">Let's Talk</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO (reference layout) -->
+<section class="hero" id="top">
+  <div class="blur-bg"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-name">HappyHacker</div>
+      <h1>HEY! I'M <span id="heroName">HAPPY.</span><span class="redline" id="heroRole">I'M A VIDEO EDITOR</span></h1>
+      <p class="lead" id="heroText"></p>
+      <p class="tagline" id="tagline"></p>
+      <div class="hero-cta">
+        <a class="btn red" href="#contact" id="waBtn2">Get in Touch →</a>
+        <div class="socials">
+          <a href="#" id="igBtn" title="Instagram" aria-label="Instagram">IG</a>
+          <a href="#" id="ytBtn" title="YouTube" aria-label="YouTube">YT</a>
+          <a href="#" id="waBtn" title="WhatsApp" aria-label="WhatsApp">WA</a>
+          <a href="#" id="mailBtn" title="Email" aria-label="Email">@</a>
+        </div>
+      </div>
+    </div>
+    <div class="portrait">
+      <div class="rings"></div>
+      <div class="sphere s1"></div>
+      <div class="sphere s2"></div>
+      <img src="assets/avatar.jpg" alt="HappyHacker avatar — red hoodie character">
+      <div class="caption">HappyHacker Avatar · <span id="ownerName"></span></div>
+    </div>
+  </div>
+  <div class="strip">
+    <div class="wrap">
+      <span><b>DaVinci</b> Resolve</span>
+      <span><b>Fusion</b> Motion</span>
+      <span><b>Captions</b></span>
+      <span><b>B-Roll</b> Editing</span>
+      <span><b>UI</b> Animation</span>
+      <span><b>Reels</b> 9:16</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT (reference layout) -->
+<section id="about">
+  <div class="blur-bg"></div>
+  <div class="wrap about-grid">
+    <div class="about-photo">
+      <div class="ring-outline"></div>
+      <div class="rings2"></div>
+      <img src="assets/avatar.jpg" alt="HappyHacker avatar portrait" loading="lazy" decoding="async">
+    </div>
+    <div>
+      <span class="tag">About Me</span>
+      <h2 id="aboutHeading">I AM AVAILABLE FOR <span class="accent">VIDEO EDITING</span> PROJECTS</h2>
+      <p class="sub" id="aboutText" style="max-width:none"></p>
+      <div class="stats" id="stats"></div>
+      <h3 style="font-size:16px">Editing Strengths</h3>
+      <div class="chips" id="skills"></div>
+      <h3 style="font-size:16px;margin-top:16px">Tools I Use</h3>
+      <div class="chips" id="tools"></div>
+      <p class="sub" style="margin-top:16px;font-size:14px">AI assists my workflow — the final editing decisions always stay practical, controlled and human-reviewed.</p>
+      <div style="margin-top:20px"><a class="btn red" href="#contact">Get in Touch →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS (reference layout) -->
+<section id="work" style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag">My Work</span>
+    <h2>RECENT <span class="accent">PROJECTS</span></h2>
+    <p class="sub">HappyHacker does not have completed client projects yet, so every project below is honestly labelled <b style="color:#fff">Concept Project</b>. These samples show exactly the work you can order.</p>
+    <div class="work-grid" id="projects"></div>
+    <div class="dots"><b>●</b> ● ●</div>
+  </div>
+</section>
+
+<!-- REELS I HAVE EDITED -->
+<section id="reels" style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag">Edited Reels</span>
+    <h2>REELS <span class="accent">I HAVE EDITED</span></h2>
+    <p class="sub">A showcase of the reels edited by HappyHacker. Every finished reel is added here — as a reel is completed and its link is added, its card becomes a direct watch link.</p>
+    <div class="reels-grid" id="reelsGrid"></div>
+  </div>
+</section>
+
+<!-- SERVICES (reference heading style) -->
+<section id="services" style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag">Services</span>
+    <h2>EDITING <span class="accent">SERVICES</span> I AM PROVIDING</h2>
+    <p class="sub">Four packages, priced by how much work goes into your video. Every higher package includes everything in the packages below it, plus more — so you always know exactly what the extra money buys. All packages are for videos up to 45 seconds.</p>
+    <div class="cards" id="serviceCards"></div>
+    <p class="rules-note" id="rulesNote"></p>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section id="before-after" style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag">Before / After</span>
+    <h2>ONE CLIP, <span class="accent">TWO RESULTS</span></h2>
+    <p class="sub">This demo shows what a plain clip looks like after a clean edit. Move the slider — the phone on the right fades into its full polished look.</p>
+    <div class="ba-box">
+      <div class="phones">
+        <div class="phone">
+          <small>Before — Raw Clip</small>
+          <div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div><div class="bar" style="width:82%"></div>
+          <p>Long pauses · no captions · one static angle · uneven audio</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="phone after" id="afterPhone">
+          <small>After — HappyHacker Edit</small>
+          <div class="bar" style="width:90%"></div><div class="bar" style="width:65%"></div>
+          <span class="cap">Clean <span>captions</span> here</span>
+          <p>Tight cuts · readable captions · key words in red · the right B-roll · music on the beat</p>
+        </div>
+      </div>
+      <input type="range" id="baRange" min="0" max="100" value="60" aria-label="Before and after demo slider">
+      <div class="ba-labels"><span>Raw</span><span>Polished</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag">How It Works</span>
+    <h2>FROM ENQUIRY TO <span class="accent">DELIVERY</span> — 8 STEPS</h2>
+    <div class="process-list" id="processSteps"></div>
+  </div>
+</section>
+
+<!-- PLATFORMS + TESTIMONIALS -->
+<section style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag">Platforms</span>
+    <h2>WORK FOR <span class="accent">INSTAGRAM & YOUTUBE</span></h2>
+    <div class="social-cards">
+      <div class="card">
+        <h3>Instagram — 9:16 Reels</h3>
+        <p>Talking-head edits, captions, B-roll, and notification / search-bar animations. See the 9:16 samples in the Projects section above.</p>
+        <div class="btns"><a class="btn red small" href="#work">View Reel Samples</a><a class="btn small" href="#" id="igBtn2">Instagram Profile</a></div>
+      </div>
+      <div class="card">
+        <h3>YouTube — 16:9 Videos</h3>
+        <p>The same minimal style for YouTube — title cards, lower-thirds and a clean visual structure.</p>
+        <div class="btns"><a class="btn red small" href="#work">View YouTube Sample</a><a class="btn small" href="#" id="ytBtn2">YouTube Channel</a></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:18px">
+      <h3>Client Testimonials</h3>
+      <p>There are no client testimonials yet — HappyHacker is currently in its portfolio-building stage, so no fake reviews have been added here. Real testimonials will appear in this section after the first client projects.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact" style="padding-top:20px">
+  <div class="blur-bg"></div>
+  <div class="wrap">
+    <span class="tag">Contact</span>
+    <h2>LET'S <span class="accent">TALK</span> ABOUT YOUR VIDEO</h2>
+    <p class="sub">Fill in this form and a ready-to-send enquiry message will be created for you. There is no public upload tool — every project is personally reviewed before it is accepted.</p>
+    <form id="enquiryForm">
+      <div><label>Your name<input id="fName" required placeholder="Your name"></label></div>
+      <div><label>Video purpose<input id="fPurpose" required placeholder="Example: Product reel, coaching video..."></label></div>
+      <div><label>Platform
+        <select id="fPlatform"><option>Instagram Reel (9:16)</option><option>YouTube (16:9)</option><option>YouTube Shorts (9:16)</option><option>Other</option></select></label></div>
+      <div><label>Video duration<input id="fDuration" required placeholder="Example: 30 seconds"></label></div>
+      <div><label>Package<select id="fPackage"></select></label></div>
+      <div><label>Deadline<input id="fDeadline" placeholder="Example: Needed in 2 days (standard: 36 hrs)"></label></div>
+      <div><label>Is the footage ready?
+        <select id="fFootage"><option>Yes</option><option>No</option></select></label></div>
+      <div><label>Is the voice-over ready?
+        <select id="fVO"><option>Yes</option><option>No</option><option>There is no voice-over in the video</option></select></label></div>
+      <div><label>Do you need captions?
+        <select id="fCaptions"><option>Yes</option><option>No</option></select></label></div>
+      <div><label>Do you need B-roll?
+        <select id="fBroll"><option>Yes</option><option>No</option></select></label></div>
+      <div><label>Do you need motion graphics?
+        <select id="fMotion"><option>Yes</option><option>No</option></select></label></div>
+      <div><label>Brand colors (if any)<input id="fBrand" placeholder="Example: Red / Black / White"></label></div>
+      <div class="full"><label class="check"><input type="checkbox" id="fRevision"> I agree that 1 revision is included in the package (extra revisions carry an additional charge).</label></div>
+      <div class="full"><label class="check"><input type="checkbox" id="fPortfolio"> The final video may be shown in the HappyHacker portfolio.</label></div>
+      <div class="full"><button class="btn red" type="submit">Create My Enquiry Message</button></div>
+    </form>
+    <div id="msgOut"></div>
+    <div class="contact-btns">
+      <a class="btn red" href="#" id="sendWa" style="display:none" target="_blank" rel="noopener">Send on WhatsApp</a>
+      <a class="btn" href="#" id="waBtn3">WhatsApp</a>
+      <a class="btn" href="#" id="mailBtn2">Email</a>
+    </div>
+    <p class="note-small" id="bookingNote"></p>
+    <p class="note-small">Payment / Booking: Booking is currently confirmed on WhatsApp. A payment button will be added to this page only when a real payment link is ready — there is no fake payment button here.</p>
+  </div>
+</section>
+
+ </main>
+
+<footer>
+  <div class="wrap">
+    <span><b style="color:#fff">HappyHacker</b> — Clean, minimal video edits & motion graphics for Instagram creators.</span>
+    <span>Built with a DaVinci Resolve workflow · Standard delivery: 36 hours</span>
+  </div>
+</footer>
+
+<a href="#" id="floatWa" class="float-wa" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">WA</a>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
