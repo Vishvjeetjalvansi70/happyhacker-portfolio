@@ -23,7 +23,7 @@ window.HH_CONTENT = {
     owner: "Vishvajeet Jalvansi",
     shortName: "Happy",
     role: "Video Editor",
-    tagline: "HappyHacker creates clean, minimal, and useful video edits and motion graphics for Instagram creators.",
+    tagline: "Clarity first. Clean edits. Minimal motion.",
     heroTitle: "Simple videos. Clean motion. Clear message.",
     heroText: "I edit short videos for Instagram creators — clean cuts, readable captions, and minimal motion graphics that make a video clearer, not heavier.",
     aboutHeading: "I AM AVAILABLE FOR VIDEO EDITING PROJECTS",
